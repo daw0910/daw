@@ -10,7 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Word");
+            Console.WriteLine("Hello Friend");
+            int a= 0;
+            int b = 10;
+            Console.WriteLine("Thuat toan cong", +(a + b));
             Console.ReadLine();
         }
     }
